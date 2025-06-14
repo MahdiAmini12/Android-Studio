@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable btn_circle
+drawable button_circle
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id BN0
+id BN1
+id BN2
+id BN3
+id BN4
+id BN5
+id BN6
+id BN7
+id BN8
+id BN9
+id BNC
+id BNdiv
+id BNequal
+id BNfact
+id BNmax
+id BNminus
+id BNplus
+id BNtimes
+id main
+id restext
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Nargesexam
+style Theme.Nargesexam
+xml backup_rules
+xml data_extraction_rules
