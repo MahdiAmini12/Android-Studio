@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_align_left" android:title="راست‌چین" />
+    <item android:id="@+id/action_align_center" android:title="وسط‌چین" />
+    <item android:id="@+id/action_align_right" android:title="چپ‌چین" />
+    <item android:id="@+id/action_increase_size" android:title="افزایش اندازه فونت" />
+    <item android:id="@+id/action_decrease_size" android:title="کاهش اندازه فونت" />
+    <item android:id="@+id/action_change_font" android:title="انتخاب فونت" />
+</menu>

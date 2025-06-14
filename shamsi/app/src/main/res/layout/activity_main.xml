@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/background"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+
+
+    <!-- دکمه انتخاب تاریخ -->
+    <Button
+        android:id="@+id/btnPickDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📅 انتخاب تاریخ"
+        android:textSize="18sp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"/>
+
+    <!-- نمایش تاریخ انتخابی -->
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تاریخ انتخابی: "
+        android:textSize="18sp"
+        android:textColor="@color/textPrimary"
+        app:layout_constraintTop_toBottomOf="@id/btnPickDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- نمایش تاریخ شمسی -->
+    <TextView
+        android:id="@+id/tvJalaliDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📆 شمسی: "
+        android:textSize="18sp"
+        android:textColor="@color/textPrimary"
+        app:layout_constraintTop_toBottomOf="@id/tvSelectedDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"/>
+
+    <!-- نمایش تاریخ قمری -->
+    <TextView
+        android:id="@+id/tvHijriDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌙 قمری: "
+        android:textSize="18sp"
+        android:textColor="@color/textPrimary"
+        app:layout_constraintTop_toBottomOf="@id/tvJalaliDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
