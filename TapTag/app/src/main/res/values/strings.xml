@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TapTag</string>
+    <string name="todo">TODO</string>
+    <string name="todoo">TODO</string>
+    <string name="logo">Logo</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="logotaptag">Logo</string>
+    <string name="login1">Login</string>
+    <string name="student_id">Student ID</string>
+    <string name="passwordstudent">Password</string>
+    <string name="log_into">Log In</string>
+    <string name="id">ID</string>
+    <string name="username">Username</string>
+</resources>

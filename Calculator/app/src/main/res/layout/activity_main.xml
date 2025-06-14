@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:backgroundTint="#7D89DB"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="290dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/Clear"
+            android:textSize="20sp"
+            app:backgroundTint="#AC6DBA" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/_7"
+            android:textSize="20sp"
+            app:backgroundTint="#433878" />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/_4"
+            android:textSize="20sp"
+            app:backgroundTint="#433878" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/_1"
+            android:textSize="20sp"
+            app:backgroundTint="#433878" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="290dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="÷"
+            android:textSize="20sp"
+            app:backgroundTint="#AC6DBA"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/_8"
+            android:textSize="20sp"
+            app:backgroundTint="#433878" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/_5"
+            android:textSize="20sp"
+            app:backgroundTint="#433878" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/_2"
+            android:textSize="20sp"
+            app:backgroundTint="#433878" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="290dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="×"
+            android:textSize="20sp"
+            app:backgroundTint="#AC6DBA"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/_9"
+            android:textSize="20sp"
+            app:backgroundTint="#433878" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/_6"
+            android:textSize="20sp"
+            app:backgroundTint="#433878" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/_3"
+            android:textSize="20sp"
+            app:backgroundTint="#433878" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="290dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/minus"
+            android:textSize="20sp"
+            app:backgroundTint="#7E60BF" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/plus"
+            android:textSize="20sp"
+            app:backgroundTint="#7E60BF" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/equal"
+            android:textSize="20sp"
+            app:backgroundTint="#7E60BF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="630dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="175dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_circle"
+            android:text="0"
+            android:textSize="20sp"
+            app:backgroundTint="#433878"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="630dp">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/DecimalPoint"
+            android:textSize="20sp"
+            app:backgroundTint="#433878" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/restext"
+        android:layout_width="347dp"
+        android:layout_height="229dp"
+        android:background="@drawable/btn_circle"
+        android:textSize="34sp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="31dp"
+        app:backgroundTint="#7E60BF"
+        android:text="TextView" />
+        <!--android:text="TextView"-->
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
